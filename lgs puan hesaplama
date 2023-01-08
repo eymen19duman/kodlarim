@@ -1,0 +1,46 @@
+td = float(input("türkçe kaç doğru? "))
+ty = float(input("türkçe kaç yanlış? "))
+sd = float(input("sosyal kaç doğru? "))
+sy = float(input("sosyal kaç yanlış? "))
+dd = float(input("din kültürü kaç doğru? "))
+dy = float(input("din kültürü kaç yanlış? "))
+ed = float(input("ingilizce kaç doğru? "))
+iy = float(input("ingilizce kaç yanlış? "))
+md = float(input("matematik kaç doğru? "))
+my = float(input("matematik kaç yanlış? "))
+fd = float(input("fen kaç doğru? "))
+fy = float(input("fen kaç yanlış? "))
+
+
+ty = ty * 0.33
+tn = td - ty
+tn = tn * 3.4
+
+
+sy = sy * 0.33
+sn = sd - sy
+sn = sn * 1.7
+
+
+dy = dy * 0.33
+dn = dd - dy
+dn = dn * 1.7
+
+
+iy = iy * 0.33
+en = ed - iy
+en = en * 1.7
+
+
+my = my * 0.33
+mn = md - ty
+mn = mn * 5.1
+
+
+fy = fy * 0.33
+fn = fd - fy
+fn = fn * 4.2
+
+hn = fn + mn+ en+ dn+sn+tn+195
+
+print("puanınız ",hn)
